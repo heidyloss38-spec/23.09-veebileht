@@ -1,0 +1,43 @@
+* { box-sizing: border-box; }
+html, body {
+    margin: 0;/* eemaldab vaikimisi välisvahe (ümber elemendi) */
+    padding: 0;/* eemaldab vaikimisi sisemise vahe (elemendi sees) */
+    font-family: sans-serif;/* määrab kirjatüübi - lihtne, ilma serifideta */
+    color: black;/* teksti värv */
+    background: rgb(255, 255, 255);/* lehe tasuta värv */ 
+    line-height: 1.6; /* rea kõrgus: 1,6x fondi suurusest (parem loetavus) */ 
+}
+.card { 
+    max-width: 880px;/* tsentreerib ploki */
+    margin: 24px auto;
+    background: #eb7eb8;/* tausta värv */
+    padding: 24px;/* sisevahe servadest */ 
+    border-radius: 16px;/* ümardatud nurgad */ 
+    box-shadow: 0 6px 28px;/* pehme vari */ 
+}
+h1 { 
+    margin-top: 0;/* eemaldab ülemise tühiku */
+    font-size: 2rem;/* suur pealkiri */
+} 
+h2 {
+    margin-top: 1.5rem; /* eemaldab ülemise tühiku */ 
+    font-size: 1.25rem; /*suur pealkiri */ 
+}
+p.note{
+    color: blue; /* värv */
+    font-size: 0.95rem; /* suurus */
+}
+
+img{
+    display: block; /*muudab pildi plokkelemendiks*/
+    max-width: 100% ; /*ei lähe konteineri piiridest välja*/
+    width: 560px; /*põhilaius laiematel ekraanidel*/
+    height: auto; /*säilitab pildi proportsiooni*/
+    border-radius: 12px; /*ümardab nurgad - pehmem visuaal*/
+    margin-top: 4px; /*vertikaalne vahe üleval*/
+}
+.caption{
+color: rgb(68, 8, 125);
+font-size: 0.95rem;
+margin-top: 4px;
+}
