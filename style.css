@@ -1,3 +1,4 @@
+
 * { box-sizing: border-box; }
 html, body {
     margin: 0;/* eemaldab vaikimisi välisvahe (ümber elemendi) */
@@ -10,7 +11,7 @@ html, body {
 .card { 
     max-width: 880px;/* tsentreerib ploki */
     margin: 24px auto;
-    background: #eb7eb8;/* tausta värv */
+    background: #7db8b1bf;/* tausta värv */
     padding: 24px;/* sisevahe servadest */ 
     border-radius: 16px;/* ümardatud nurgad */ 
     box-shadow: 0 6px 28px;/* pehme vari */ 
@@ -41,3 +42,64 @@ color: rgb(68, 8, 125);
 font-size: 0.95rem;
 margin-top: 4px;
 }
+ul {
+    padding-left: 20px; /* vasakpoolne sisemine vahe */
+} 
+.nice-table{
+    width: 100%; /* tabel võtab kogu laiuse */
+    border-collapse: collapse; /* eemaldab topeltpiirded */
+    margin-top: 8px; /* vertikaalne vahe üleval */
+    font-size: 0,98rem;
+}
+.nice-table th, 
+.nice-table{
+    padding: 10px 12px; /* sisemine vahe */
+    border: 1px solid #7ea4eb; /* piire */
+    text-align: left; /* tekst joondus vasakule */
+}
+.nice-table th{
+    background:rgb(175, 175, 175) /* päise taustavärv */
+}
+.btn {
+    display: inline-block; /* muudab lingi plokkelemendiks */
+    padding: 10px 20px; /* sisemine vahe */
+    background: #954caf; /* taustavärv */
+    color: rgb(214, 137, 137); /* tekstivärv */
+    text-decoration:none; /* eemaldab allakriipsutuse */
+    border-radius: 8px; /* ümardatud nurgad */
+    font-weight: 600; /* veidi paksus */
+    transition: opacity 0.2s ease-in-out; /* sujuv üleminek */
+}
+.btn:hover {
+    opacity: 0.9; /* veidi läbipaistev hoveril */
+}
+form {
+    display: grid;
+    gap: 12px;
+    margin-top: 12px;
+    max-width: 520px;
+}
+input, textarea {
+    width: 100%; /* võtab kogu laiuse */
+    padding: 10px 14px; /* sisemine vahe */
+    border: 0; /* piire */
+    border-radius: 10px; /* veidi ümardatud nurgad */
+    background: white;
+    color: burlywood;
+    font-weight: 600;
+    cursor: pointer; /* muudab kursorit */
+}
+button:hover {
+    opacity: 0.95;/* veidi läbipaistev hoveril */
+}
+.black-link {
+display: inline-block;
+margin-top:  16px;
+color: rgb(171, 117, 117);
+text-decoration: none;
+font-weight: 600;
+}
+.black-link:hover {
+    text-decoration: underline;
+}
+
